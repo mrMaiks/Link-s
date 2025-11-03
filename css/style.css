@@ -76,6 +76,10 @@ a {
     background-image: url(../img/inst.jpg);
 }
 
+.link-item-container--twitch {
+    background-image: url(../img/twitch.jpg);
+}
+
 .link-item-container::after {
     content: "";
     position: absolute;
@@ -86,6 +90,7 @@ a {
     border-radius: 5px;
     background: rgba(255, 0, 0, 0.226);
     opacity: 0;
+    transition: 0.3s ease-in-out;
 }
 
 .link-item-container:hover {
